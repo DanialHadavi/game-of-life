@@ -29,7 +29,7 @@ class Game extends React.Component {
   state = {
     cells: [],
     isRunning: false,
-    interval: 100,
+    interval: 0,
     genCount: 0,
     step: false,
   };
@@ -39,7 +39,9 @@ class Game extends React.Component {
   //Allow users for manual step
   //Random cells
   //Maybe also sample cells
+  //option to clear
   //some styling after everything is working
+
   render() {
     return (
       <div>
