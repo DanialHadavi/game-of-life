@@ -41,6 +41,26 @@ class Game extends React.Component {
   //Maybe also sample cells
   //option to clear
   //some styling after everything is working
+  runGame = () => {
+    this.setState({ isRunning: true, step: false });
+  };
+
+  stopGame = () => {
+    this.setState({ isRunning: false });
+  };
+
+  singleStep = () => {
+    this.setState({ isRunning: true, step: true });
+    this.setState({ isRunning: false });
+  };
+
+  clearCells = () => {};
+
+  handleClick = () => {};
+
+  handleRandom = () => {};
+
+  handleInterval = () => {};
 
   render() {
     return (
