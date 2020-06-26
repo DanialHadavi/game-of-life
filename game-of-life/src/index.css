@@ -1,0 +1,73 @@
+body {
+  color: rgb(212, 221, 228);
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 2;
+  background-image: linear-gradient(
+    to right,
+    rgb(8, 66, 133),
+    rgb(0, 153, 255)
+  );
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.gameboard {
+  position: relative;
+  margin: 0 auto;
+  background-color: #000;
+  background-image: linear-gradient(#333 1px, transparent 1px),
+    linear-gradient(90deg, #333 1px, transparent 1px);
+}
+
+.Cell {
+  background: rgb(37, 124, 223);
+  position: absolute;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.speed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin: 10px;
+  border-radius: 30%;
+  border-color: cornflowerblue;
+  background-color: rgb(21, 90, 136);
+  color: aliceblue;
+  outline: none;
+  padding: 5 10px;
+}
+button:hover {
+  background-color: rgb(21, 111, 196);
+}
+input {
+  margin: 0 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.rules {
+  margin: 0 310px;
+  font-size: 16px;
+}
