@@ -1,8 +1,8 @@
 import React from "react";
 
-const CELL_SIZE = 20;
-const WIDTH = 600;
-const HEIGHT = 400;
+const CELL_SIZE = 25;
+const WIDTH = 700;
+const HEIGHT = 500;
 
 class Cell extends React.Component {
   render() {

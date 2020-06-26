@@ -57,6 +57,9 @@ button {
   outline: none;
   padding: 5 10px;
 }
+button:hover {
+  background-color: rgb(21, 111, 196);
+}
 input {
   margin: 0 10px;
 }
